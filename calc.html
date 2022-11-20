@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="wrapper-calc">
+        <div class="calculator">
+            <input class="numberone" type="number" id="firstNumber" placeholder="enter the 1st number">
+            <input class="numbertwo" type="number" id="secondNumber" placeholder="enter the 2d number">
+        <button onclick="addNumbers()" class="calculator__btn addition">+</button>
+        <button onclick="subtractNumbers ()" class="calculator__btn subtraction">-</button>
+        <button onclick="multiplyNumbers ()" class="calculator__btn multiplication">*</button>
+        <button onclick="divideNumbers ()" class="calculator__btn division">/</button>
+        <div class="inputresult" id="result">
+        </div>
+</div>
+        </div>
+
+
+<script src="./calc.js"></script>
+</body>
+</html>
